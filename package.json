@@ -2,7 +2,7 @@
   "name": "week9",
   "version": "1.0.0",
   "description": "my week9 package",
-  "main": "index.js",
+  "main": "week9/index.js",
   "dependencies": {
     "ejs": "^2.7.2",
     "express": "^4.17.1"
@@ -12,7 +12,7 @@
   },
   "devDependencies": {},
   "scripts": {
-	  "start": "node index.js",
+	  "start": "node week9/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

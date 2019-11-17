@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="../../../cs313-php/web/css/fancy.css" rel="stylesheet" type="text/css" >
+    <title>Total Price</title>
+</head>
+<body>
+    <h1>Receipt</h1>
+    <p>Your Package weighs: <%= weight %> oz </p>
+    <p>You are sending a <%= type %> letter/package.</p>
+    <p>Your net total comes to: $<%= price %> </p>
+    <button><a href="/"> Send another package?</a></button>
+    <p id="error"></p>
+</body>
+</html>

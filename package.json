@@ -5,7 +5,7 @@
   "main": "week9/index.js",
   "dependencies": {
     "ejs": "^2.7.2",
-    "express": "^4.17.1"
+    "express": "^4.18.2"
   },
   "engines": {
     "node": "13.0.1"
